@@ -5,52 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad - ADAM</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #222; }
         h1, h2 { color: #333; }
+        h2 { margin-top: 28px; }
         ul { margin: 10px 0; }
+        table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95em; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top; }
+        th { background: #f4f4f4; }
+        .muted { color: #555; font-size: 0.92em; }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad - ADAM-IG</h1>
-    
-    <p><strong>Última actualización:</strong> 2026</p>
+    <h1>Política de Privacidad - ADAM</h1>
 
-    <h2>1. Información General</h2>
-    <p>ADAM-IG es una aplicación que permite la gestión automatizada de mensajes y contenido en Instagram. Esta política explica cómo recopilamos, usamos y protegemos su información.</p>
+    <p><strong>Última actualización:</strong> 20 de octubre de 2026</p>
 
-    <h2>2. Información que Recopilamos</h2>
-    <p>Para proporcionar nuestros servicios, recopilamos la siguiente información de Instagram:</p>
+    <h2>1. Quiénes somos</h2>
+    <p>ADAM es una plataforma de software como servicio (SaaS) multiempresa para la atención al cliente y la gestión de pedidos por WhatsApp. Es operada por <strong>{{RAZÓN SOCIAL}}</strong>, con domicilio en Colombia (en adelante, "ADAM").</p>
+    <p>ADAM presta el servicio a empresas que contratan la plataforma (en adelante, "el Negocio"). Esta política aplica al sitio <strong>adamcoia.com</strong>, al panel de ADAM y a la integración con la Plataforma de WhatsApp Business de Meta.</p>
+
+    <h2>2. Qué papel tenemos sobre los datos</h2>
     <ul>
-        <li>Información básica del perfil de Instagram</li>
-        <li>Mensajes y conversaciones</li>
-        <li>Comentarios en publicaciones</li>
-        <li>Metadatos de interacciones</li>
+        <li><strong>Datos de la cuenta del Negocio</strong> (usuarios, configuración, facturación): ADAM es el <strong>Responsable del tratamiento</strong>.</li>
+        <li><strong>Datos de los clientes finales del Negocio</strong> (conversaciones, pedidos, contactos): el <strong>Negocio es el Responsable</strong> y ADAM actúa únicamente como <strong>Encargado del tratamiento</strong>, siguiendo sus instrucciones. El Negocio es quien debe contar con la autorización de sus clientes para escribirles por WhatsApp.</li>
     </ul>
 
-    <h2>3. Cómo Usamos su Información</h2>
+    <h2>3. Qué datos tratamos</h2>
+
+    <h3>3.1 Datos de la cuenta del Negocio</h3>
     <ul>
-        <li>Gestionar y responder mensajes automáticamente</li>
-        <li>Moderar comentarios en publicaciones</li>
-        <li>Proveer análisis básicos de engagement</li>
-        <li>Mejorar nuestros servicios</li>
+        <li>Nombre del Negocio, nombre y correo de los usuarios, rol asignado y credenciales de acceso (almacenadas con hash).</li>
+        <li>Configuración del Negocio: catálogo, categorías, precios, métodos de pago, modalidades de entrega y textos de atención.</li>
     </ul>
 
-    <h2>4. Almacenamiento y Seguridad</h2>
-    <p>Los datos se almacenan de forma segura y se implementan medidas de protección estándar de la industria. No compartimos información personal con terceros.</p>
-
-    <h2>5. Sus Derechos</h2>
-    <p>Usted tiene derecho a:</p>
+    <h3>3.2 Datos de la integración con Meta / WhatsApp</h3>
+    <p>Cuando el Negocio conecta su cuenta mediante el registro integrado de Meta (Embedded Signup) y autoriza los permisos <em>whatsapp_business_management</em> y <em>whatsapp_business_messaging</em>, recibimos y almacenamos:</p>
     <ul>
-        <li>Acceder a sus datos personales</li>
-        <li>Solicitar la eliminación de sus datos</li>
-        <li>Revocar el acceso en cualquier momento</li>
+        <li>Identificadores de la cuenta de WhatsApp Business (WABA ID) y del número de teléfono (Phone Number ID).</li>
+        <li>Número de teléfono del Negocio y nombre verificado.</li>
+        <li>Plantillas de mensaje, su contenido, su categoría y el estado de aprobación que devuelve Meta.</li>
+        <li>Tokens de acceso a la API, que se almacenan cifrados y se usan solo para operar la cuenta del Negocio.</li>
     </ul>
 
-    <h2>6. Contacto</h2>
-    <p>Para preguntas sobre esta política o sus datos, contáctenos en:</p>
-    <p><strong>Email:</strong> giraldoatehortuapaj@gmail.com</p>
+    <h3>3.3 Datos de las conversaciones</h3>
+    <ul>
+        <li>Número de teléfono y nombre de perfil de WhatsApp de la persona que escribe al Negocio.</li>
+        <li>Contenido de los mensajes: texto, audio, imágenes, documentos y comprobantes de pago.</li>
+        <li>Fecha y hora de los mensajes, estado de envío, entrega y lectura.</li>
+        <li>Transcripción de mensajes de audio, cuando el Negocio tiene la IA activada.</li>
+    </ul>
 
-    <h2>7. Cambios en esta Política</h2>
-    <p>Nos reservamos el derecho de actualizar esta política. Los cambios serán publicados en esta página.</p>
+    <h3>3.4 Datos de pedidos y operación</h3>
+    <ul>
+        <li>Pedidos, su contenido, estado y su historial de cambios.</li>
+        <li>Casos de escalamiento a una persona del Negocio y los eventos asociados.</li>
+        <li>Registros de auditoría de las acciones realizadas en la plataforma, con fecha, hora y dirección IP.</li>
+    </ul>
+
+    <p class="muted">ADAM no solicita datos sensibles. El Negocio no debe usar la plataforma para enviar datos de salud, datos biométricos, datos de menores ni datos financieros completos (por ejemplo, números de tarjeta).</p>
+
+    <h2>4. Para qué usamos los datos</h2>
+    <ul>
+        <li>Conectar y administrar la cuenta de WhatsApp Business del Negocio: leer la WABA y el número conectado, suscribir la cuenta a nuestros webhooks, listar las plantillas y crear nuevas plantillas para enviarlas a aprobación de Meta.</li>
+        <li>Enviar plantillas aprobadas y respuestas de atención dentro de la ventana de 24 horas, siempre desde el número del Negocio hacia personas que dieron su consentimiento para recibir sus mensajes.</li>
+        <li>Recibir los mensajes de los clientes y las actualizaciones de estado de Meta, y mostrarlos en la bandeja de entrada del Negocio.</li>
+        <li>Gestionar catálogo, pedidos, comprobantes y escalamientos a personas del Negocio.</li>
+        <li>Prestar funciones de inteligencia artificial, <strong>solo si el Negocio las activa con su propia llave de OpenAI</strong>: transcripción de audios y análisis de pedidos.</li>
+        <li>Seguridad, prevención de abuso, auditoría, soporte y cumplimiento de obligaciones legales.</li>
+    </ul>
+    <p><strong>ADAM no envía mensajes en su propio nombre.</strong> Todos los mensajes salen del número del Negocio a sus propios contactos. ADAM no vende datos personales, no los usa para publicidad y no los comparte entre Negocios: cada espacio de trabajo está aislado por organización.</p>
+
+    <h2>5. Base legal</h2>
+    <ul>
+        <li><strong>Ejecución del contrato</strong> con el Negocio, para prestar el servicio contratado.</li>
+        <li><strong>Consentimiento</strong> del cliente final, otorgado al Negocio cuando acepta recibir mensajes por WhatsApp. El Negocio declara y garantiza haber obtenido ese consentimiento.</li>
+        <li><strong>Interés legítimo</strong> en la seguridad de la plataforma y la prevención de fraude.</li>
+        <li><strong>Cumplimiento de obligaciones legales</strong> aplicables.</li>
+    </ul>
+    <p>Tratamos los datos conforme a la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normas colombianas sobre protección de datos personales.</p>
+
+    <h2>6. Con quién compartimos los datos</h2>
+    <p>No vendemos ni alquilamos datos personales. Para operar el servicio usamos los siguientes proveedores, que actúan como encargados y solo acceden a los datos necesarios:</p>
+    <table>
+        <thead>
+            <tr><th>Proveedor</th><th>Finalidad</th><th>País</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Meta Platforms, Inc. (WhatsApp Business Platform)</td><td>Envío y recepción de mensajes, gestión de la cuenta de WhatsApp Business y de las plantillas</td><td>Estados Unidos y otros países</td></tr>
+            <tr><td>{{PROVEEDOR_HOSTING}}</td><td>Alojamiento del panel y del backend</td><td>{{PAÍS_HOSTING}}</td></tr>
+            <tr><td>{{PROVEEDOR_BASE_DE_DATOS}}</td><td>Almacenamiento de la base de datos</td><td>{{PAÍS_BASE_DE_DATOS}}</td></tr>
+            <tr><td>{{PROVEEDOR_ARCHIVOS}}</td><td>Almacenamiento de archivos y comprobantes</td><td>{{PAÍS_ARCHIVOS}}</td></tr>
+            <tr><td>OpenAI, L.L.C. (solo si el Negocio activa la IA con su propia llave)</td><td>Transcripción de audios y análisis de pedidos</td><td>Estados Unidos</td></tr>
+        </tbody>
+    </table>
+    <p>Estos proveedores pueden estar ubicados fuera de Colombia. En esos casos la transferencia se ampara en las cláusulas contractuales y garantías de seguridad de cada proveedor.</p>
+
+    <h2>7. Cuánto tiempo conservamos los datos</h2>
+    <ul>
+        <li><strong>Mientras la cuenta del Negocio esté activa:</strong> conservamos los datos necesarios para prestar el servicio.</li>
+        <li><strong>Al desconectar WhatsApp:</strong> eliminamos los tokens de acceso y dejamos de enviar y recibir mensajes de inmediato.</li>
+        <li><strong>Al solicitar la eliminación:</strong> eliminamos o anonimizamos los datos personales en un plazo máximo de 30 días, salvo lo que debamos conservar por obligación legal.</li>
+        <li><strong>Registros de auditoría:</strong> se conservan por el tiempo necesario para seguridad y cumplimiento normativo.</li>
+    </ul>
+
+    <h2>8. Cómo protegemos los datos</h2>
+    <ul>
+        <li>Comunicaciones cifradas con TLS.</li>
+        <li>Credenciales y tokens de acceso cifrados en reposo.</li>
+        <li>Contraseñas almacenadas con hash, nunca en texto plano.</li>
+        <li>Acceso restringido por rol y por Negocio: cada espacio de trabajo solo puede ver su propia información.</li>
+        <li>Registro de auditoría de las acciones realizadas y revisión periódica de accesos.</li>
+        <li>Ningún sistema es infalible. Si ocurriera un incidente que afecte datos personales, lo notificaremos a los Negocios afectados y a la autoridad competente cuando corresponda.</li>
+    </ul>
+
+    <h2>9. Sus derechos</h2>
+    <p>Como titular de los datos, usted tiene derecho a:</p>
+    <ul>
+        <li>Conocer, acceder y actualizar sus datos personales.</li>
+        <li>Rectificar la información inexacta o incompleta.</li>
+        <li>Solicitar la supresión de sus datos cuando no exista un deber legal de conservarlos.</li>
+        <li>Revocar la autorización y oponerse al tratamiento.</li>
+        <li>Solicitar prueba de la autorización otorgada.</li>
+        <li>Presentar quejas ante la Superintendencia de Industria y Comercio (SIC).</li>
+    </ul>
+    <p>Si usted es cliente final de un Negocio, la solicitud debe dirigirse a ese Negocio, que es el Responsable de sus datos. También puede escribirnos y la trasladaremos al Negocio correspondiente.</p>
+
+    <h2>10. Cómo eliminar sus datos o revocar el acceso</h2>
+    <ul>
+        <li><strong>Cliente final:</strong> solicite la eliminación a través de <a href="https://adamcoia.com/data-deletion">https://adamcoia.com/data-deletion</a>. Recibirá un código de confirmación y una URL para consultar el estado de la solicitud.</li>
+        <li><strong>Negocio:</strong> puede desconectar su cuenta desde <em>Configuración &gt; WhatsApp &gt; Desconectar</em>, o revocar el acceso desde su cuenta de Meta. Al hacerlo, ADAM recibe la desautorización y elimina los tokens de acceso.</li>
+        <li><strong>Callbacks de Meta:</strong> atendemos las solicitudes de eliminación y desautorización enviadas por Meta en <a href="https://adamcoia.com/api/meta/data-deletion">https://adamcoia.com/api/meta/data-deletion</a> y <a href="https://adamcoia.com/api/meta/deauthorize">https://adamcoia.com/api/meta/deauthorize</a>.</li>
+    </ul>
+
+    <h2>11. Menores de edad</h2>
+    <p>ADAM no está dirigido a menores de edad y no recopila datos de menores de forma consciente. El Negocio no debe usar la plataforma para contactar a menores sin la autorización de quien ejerza la patria potestad.</p>
+
+    <h2>12. Cambios en esta política</h2>
+    <p>Podemos actualizar esta política para reflejar cambios en el servicio o en la normativa. La versión vigente será siempre la publicada en esta página, con su fecha de actualización. Si el cambio es sustancial, lo comunicaremos a los Negocios por los canales de contacto registrados.</p>
+
+    <h2>13. Contacto</h2>
+    <p>Para consultas, solicitudes o reclamos sobre datos personales:</p>
+    <p><strong>Responsable:</strong> {{RAZÓN SOCIAL}}<br>
+    <strong>Correo:</strong> <a href="mailto:contacto@adamcoia.com">contacto@adamcoia.com</a><br>
+    <strong>Sitio:</strong> <a href="https://adamcoia.com">https://adamcoia.com</a></p>
 </body>
 </html>
