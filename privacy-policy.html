@@ -59,7 +59,7 @@
     <ul>
         <li>Pedidos, su contenido, estado y su historial de cambios.</li>
         <li>Casos de escalamiento a una persona del Negocio y los eventos asociados.</li>
-        <li>Registros de auditoría de las acciones realizadas en la plataforma, con fecha, hora y dirección IP.</li>
+        <li>Registros de auditoría de las acciones realizadas en la plataforma, con fecha y hora.</li>
     </ul>
 
     <p class="muted">ADAM no solicita datos sensibles. El Negocio no debe usar la plataforma para enviar datos de salud, datos biométricos, datos de menores ni datos financieros completos (por ejemplo, números de tarjeta).</p>
@@ -97,13 +97,13 @@
             <tr><td>OpenAI, L.L.C. (solo si el Negocio activa la IA con su propia llave)</td><td>Transcripción de audios y análisis de pedidos</td><td>Estados Unidos</td></tr>
         </tbody>
     </table>
-    <p>Estos proveedores pueden estar ubicados fuera de Colombia. En esos casos la transferencia se ampara en las cláusulas contractuales y garantías de seguridad de cada proveedor.</p>
+    <p>Estos proveedores están ubicados en Estados Unidos, por lo que los datos se transfieren fuera de Colombia. La transferencia se ampara en las cláusulas contractuales y garantías de seguridad de cada proveedor.</p>
 
     <h2>7. Cuánto tiempo conservamos los datos</h2>
     <ul>
         <li><strong>Mientras la cuenta del Negocio esté activa:</strong> conservamos los datos necesarios para prestar el servicio.</li>
-        <li><strong>Al desconectar WhatsApp:</strong> eliminamos los tokens de acceso y dejamos de enviar y recibir mensajes de inmediato.</li>
-        <li><strong>Al solicitar la eliminación:</strong> eliminamos o anonimizamos los datos personales en un plazo máximo de 30 días, salvo lo que debamos conservar por obligación legal.</li>
+        <li><strong>Al revocar el acceso desde Meta:</strong> desactivamos el canal y dejamos de operar esa cuenta.</li>
+        <li><strong>Al solicitar la eliminación de datos:</strong> revocamos las credenciales del canal y eliminamos o anonimizamos los datos personales en un plazo máximo de 30 días, salvo lo que debamos conservar por obligación legal.</li>
         <li><strong>Registros de auditoría:</strong> se conservan por el tiempo necesario para seguridad y cumplimiento normativo.</li>
     </ul>
 
@@ -131,9 +131,10 @@
 
     <h2>10. Cómo eliminar sus datos o revocar el acceso</h2>
     <ul>
-        <li><strong>Cliente final:</strong> solicite la eliminación a través de <a href="https://adamcoia.com/data-deletion">https://adamcoia.com/data-deletion</a>. Recibirá un código de confirmación y una URL para consultar el estado de la solicitud.</li>
-        <li><strong>Negocio:</strong> puede desconectar su cuenta desde <em>Configuración &gt; WhatsApp &gt; Desconectar</em>, o revocar el acceso desde su cuenta de Meta. Al hacerlo, ADAM recibe la desautorización y elimina los tokens de acceso.</li>
-        <li><strong>Callbacks de Meta:</strong> atendemos las solicitudes de eliminación y desautorización enviadas por Meta en <a href="https://adamcoia.com/api/meta/data-deletion">https://adamcoia.com/api/meta/data-deletion</a> y <a href="https://adamcoia.com/api/meta/deauthorize">https://adamcoia.com/api/meta/deauthorize</a>.</li>
+        <li><strong>Cliente final:</strong> puede solicitar la eliminación desde el mecanismo de eliminación de datos que Meta pone a disposición en la app de WhatsApp, o escribiendo a <a href="mailto:adamcorp.business@gmail.com">adamcorp.business@gmail.com</a>. En <a href="https://adamcoia.com/data-deletion">https://adamcoia.com/data-deletion</a> están las instrucciones y el acceso al estado de la solicitud.</li>
+        <li><strong>Negocio:</strong> puede revocar el acceso de ADAM desde su cuenta de Meta, o solicitar la desconexión escribiendo a <a href="mailto:adamcorp.business@gmail.com">adamcorp.business@gmail.com</a>. Al revocar el acceso, desactivamos el canal del Negocio y este deja de operar.</li>
+        <li><strong>Eliminación de datos:</strong> cuando la solicitud llega por el mecanismo de Meta, revocamos las credenciales del canal (token de acceso, secreto de webhook y llave de IA), desactivamos el canal y generamos un código de confirmación con una URL para consultar el estado en <a href="https://adamcoia.com/data-deletion/status">https://adamcoia.com/data-deletion/status</a>.</li>
+        <li><strong>Callbacks de Meta:</strong> los endpoints <code>https://adamcoia.com/api/meta/data-deletion</code> y <code>https://adamcoia.com/api/meta/deauthorize</code> reciben las notificaciones de Meta. No son páginas para navegar: son llamadas servidor a servidor que validan la firma criptográfica de Meta.</li>
     </ul>
 
     <h2>11. Menores de edad</h2>
@@ -144,7 +145,7 @@
 
     <h2>13. Contacto</h2>
     <p>Para consultas, solicitudes o reclamos sobre datos personales:</p>
-    <p><strong>Responsable:</strong>ADAM CORPORATION SAS<br>
+    <p><strong>Responsable:</strong> ADAM CORPORATION SAS<br>
     <strong>Correo:</strong> <a href="mailto:adamcorp.business@gmail.com">adamcorp.business@gmail.com</a><br>
     <strong>Sitio:</strong> <a href="https://adamcoia.com">https://adamcoia.com</a></p>
 </body>
